@@ -1,0 +1,75 @@
+package com.ambow.vsts.dao.imp;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.ambow.vsts.entity.User;
+import com.ambow.vsts.util.HibernateUtil;
+
+public class GenericDaoHibernateImpl {
+	//保存
+	public void save(Object obj) {
+		Session session = new HibernateUtil().getSession();
+		//打开一个事物
+		Transaction tran = session.beginTransaction();
+		//保存一个对象
+		session.save(obj);
+		tran.commit();
+		session.flush();	
+		session.close();
+	}
+	
+	//删除
+	public void delete(Object obj) {
+		Session session = new HibernateUtil().getSession();
+		//打开一个事物
+		Transaction tran = session.beginTransaction();
+		//保存一个对象
+		session.delete(obj);
+		tran.commit();
+		session.flush();
+		session.close();
+	}
+	//修改
+	public void update(Object obj) {
+		Session session = new HibernateUtil().getSession();
+		//打开一个事物
+		Transaction tran = session.beginTransaction();
+		//保存一个对象
+		session.update(obj);
+		tran.commit();
+		session.flush();
+		session.close();
+	}
+	
+	//根据主键获得相应对象
+	public  Object get(Class clazz,Long id) {
+		Session session = new HibernateUtil().getSession();
+		//打开一个事物
+		Transaction tran = session.beginTransaction();
+		//保存一个对象
+		Object obj = session.get(clazz,id);
+		tran.commit();
+		session.flush();
+		session.close();
+		return obj;
+	}
+	//
+	public Collection<Object> getAll(Object obj){
+//		Collection<User> obj = new HashSet<Object>();
+		Session session = new HibernateUtil().getSession();
+		Transaction tran = session.beginTransaction();
+		String hql = "from " +obj;
+		System.out.println(hql+"----------------");
+		Collection<Object> obj1 = session.createQuery(hql).list();
+		tran.commit();
+		session.flush();
+		session.close();
+		return obj1;
+		
+	}
+}

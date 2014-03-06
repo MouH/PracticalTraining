@@ -1,0 +1,12 @@
+<Context reloadable="true">
+	<Resource name="jdbc/access" auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="sun.jdbc.odbc.JdbcOdbcDriver"
+		url="jdbc:odbc:driver={Microsoft Access Driver (*.mdb)};DBQ=d:/notebook.mdb"
+		uname=""
+		password=""
+		maxActive="200"
+		maxIdle="30"
+		maxWait="-1"/>
+		
+</Context>

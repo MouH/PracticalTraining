@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding='utf-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping>  
+    <class name="com.ambow.vsts.entity.User" table="user">  
+	    <id name="id" column="UserId" type="int"><generator class="native"/></id>  
+	        <property name="name" column="Name" type="string"/>  
+	        <property name="passwd"  column="PassWd" type="string"/>  
+	        <property name="email" column="Email" type="string"/>  
+	        <property name="phone" column="Phone" type="string"/>  
+	        <property name="reg_date" column="Reg_Date" type="date"/>  
+	        
+	    <set name="holding" cascade="save-update" inverse="true" lazy="true">
+			<key column="UserID" />
+			<one-to-many class="com.ambow.vsts.entity.Holding" />
+		</set>
+		<set name="trade" cascade="save-update" lazy="true">
+			<key column="UserID" />
+			<one-to-many class="com.ambow.vsts.entity.Trade" />
+		</set>
+    </class>  
+</hibernate-mapping>  

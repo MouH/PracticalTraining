@@ -1,0 +1,236 @@
+.landing_body {
+	background-color: #0353A1; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+}
+.landing_txt{
+	font-size: 12px;
+	color: #000000;
+	font-family: "??";
+}
+.landing_input {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	font-family: "??";
+	font-size: 12px;
+	height: 17px;
+	width: 120px;
+}
+.landing_style1 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #EDBA07;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:link      {
+                color: #000000; font-size: 12px; font-family："宋体"; text-decoration: none
+                }
+A:visited   {
+                color: #000000; font-size: 12px; font-family: "宋体"; text-decoration: none
+				}
+A:hover     {
+                color: #FF0000; font-size: 12px; font-family: "宋体";  text-decoration: underline
+                }
+
+
+
+A.top:link      {
+	color: #FFFFFF;
+	font-size: 12px;
+font-family："宋体"; 	text-decoration: none;
+	font-weight: bold;
+                }
+A.top:visited   {
+                color: #000000; font-size: 12px; font-family: "宋体"; text-decoration: none
+				}
+A.top:hover     {
+                color: #000000; font-size: 12px; font-family: "宋体";  text-decoration: underline
+                }
+
+
+
+
+
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #E7F0F4;
+	SCROLLBAR-FACE-COLOR: #E7F0F4;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #869FDE;
+	SCROLLBAR-3DLIGHT-COLOR: #869FDE;
+	SCROLLBAR-ARROW-COLOR: #336699;
+	SCROLLBAR-TRACK-COLOR: #EFF3FE;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	CURSOR: url('/images/blue.ani');
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px;
+	BORDER-LEFT-WIDTH: 1px;
+	FONT-SIZE: 12px;
+	BORDER-LEFT-COLOR: #cccccc;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-BOTTOM-COLOR: #cccccc;
+	BORDER-TOP-COLOR: #cccccc;
+	HEIGHT: 18px;
+	BORDER-RIGHT-WIDTH: 1px;
+	BORDER-RIGHT-COLOR: #cccccc;
+	padding: 1px;
+}
+td {
+	font-size: 12px; font-family："宋体";
+}
+
+.StyleBorderOnly {
+	border: 1px solid #869FDE;
+}
+.StylePopped {
+	PADDING-LEFT: 5px;
+	FONT: bold 12px "宋体";
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #81A0E1;
+	border-top: 1px solid #A5C4FA;
+	border-right: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	border-left: 1px solid #A5C4FA;
+}
+.TableColA {
+	BORDER-RIGHT: 1px solid #E1E1E1;
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	FONT: 12px "宋体";
+	PADDING-TOP: 3px;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E1E1E1;
+}
+.button1 {
+	font-family: "??";
+	font-size: 12px;
+	background-image: url(../images/main/but_bg1.gif);
+	vertical-align: bottom;
+	height: 19px;
+	width: 65px;
+	border: 0px none;
+	cursor: hand;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.button2 {
+	font-family: "??";
+	font-size: 12px;
+	background-image: url(../images/main/but_bg.gif);
+	vertical-align: bottom;
+	height: 19px;
+	width: 110px;
+	border: 0px none;
+	cursor: hand;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.tab1 {
+	font-family: "??";
+	font-size: 12px;
+	background-image: url(../images/main/but_tab_bg2.gif);
+	vertical-align: bottom;
+	height: 20px;
+	width: 113px;
+	border: 0px none;
+	cursor: hand;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.tab2 {
+	font-family: "??";
+	font-size: 12px;
+	background-image: url(../images/main/but_tab_bg1.gif);
+	vertical-align: bottom;
+	height: 20px;
+	width: 113px;
+	border: 0px none;
+	cursor: hand;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+
+.button3 {
+	background-image: url(/images/button/button/a.gif); 
+	height: 19px; 
+	width: 30px; 
+	border: 0px none;
+	cursor: hand;
+}
+
+.button4 {
+	font-family: "??";
+	font-size: 12px;
+	background-image: url(/images/button/button/but_bg2.gif);
+	vertical-align: bottom;
+	height: 19px;
+	width: 155px;
+	border: 0px none;
+	cursor: hand;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.main_tab {
+	background-color: #F7FBFE;
+	color: #000000;
+	border: 1px solid #8F9EC5;
+    }
+.main_tab1 {
+	color: #000000;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-bottom: 1px solid #8F9EC5;
+	border-left: 0px none;
+    }
+.tab_txt {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.titleTxT {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}

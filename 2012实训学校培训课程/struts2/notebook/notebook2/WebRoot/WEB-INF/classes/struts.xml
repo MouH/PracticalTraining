@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.i18n.encoding" value="GBK"/>
+     <package name="all" extends="struts-default">
+     	<action name="select" class="note.NotesAction" method="select">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="insert" class="note.NotesAction" method="insert">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="delete" class="note.NotesAction" method="delete">
+            <result name="success">/index.jsp</result>
+        </action>
+    </package>
+</struts>
+

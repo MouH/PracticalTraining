@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity
+END
+Trade.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity/Trade.java
+END
+TradeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity/TradeType.java
+END
+Stock.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity/Stock.java
+END
+Holding.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity/Holding.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/entity/User.java
+END

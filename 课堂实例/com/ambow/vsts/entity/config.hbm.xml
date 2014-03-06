@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="gbk"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="ambow.vsts.entity">
+
+    <!-- Stock 类映射配置 -->
+	<class name="Stock" table="Stock">
+		<id name="id" column="stock_id" unsaved-value="null">
+			<generator class="native" />
+		</id>
+		<property name="name"   column="name" ></property>
+		<property name="code"   column="code" ></property>
+		<property name="price"  column="price" ></property>
+	</class>
+	
+	<!-- User 类映射配置 -->
+	<class name="User" table="user">
+		<id name="id" column="user_id" unsaved-value="null">
+			<generator class="native" />
+		</id>
+		<property name="name"   column="name" ></property>
+		<property name="passwd"   column="passwd" ></property>
+		<property name="email"  column="email" ></property>
+		<property name="phone"  column="phone" ></property>
+		<property name="address"  column="address" ></property>
+		<property name="reg_date"  column="reg_date" ></property>
+	</class>
+	
+	<!-- TradeType 类映射配置 -->
+	<class name="TradeType" table="TradeType">
+		<id name="id" column="TradeType_id" unsaved-value="null">
+			<generator class="native" />
+		</id>
+		<property name="info"   column="info" ></property>
+	</class>
+	
+	<!-- Holding 类映射配置 -->
+	<class name="Holding" table="Holding">
+		<id name="id" column="Holding_id" unsaved-value="null">
+			<generator class="native" />
+		</id>
+		<property name="number"   column="number" ></property>
+		<property name="avgPrice"   column="avgPrice" ></property>
+		<many-to-one  name="stock"  column="stock_id"  lazy="false" />
+		<many-to-one  name="user"  column="user_id"  lazy="false" />
+	</class>
+	
+	<!-- Trade 类映射配置 -->
+	<class name="Trade" table="Trade">
+		<id name="id" column="Trade_id" unsaved-value="null">
+			<generator class="native" />
+		</id>
+		<property name="tradePrice"    column="tradePrice" ></property>
+		<property name="tradeNumber"   column="tradeNumber" ></property>
+		<property name="tradeDate"     column="tradeDate" type="java.sql.Date"></property>
+		<many-to-one  name="stock"  column="stock_id" 	 lazy="false" />
+		<many-to-one  name="type"  column="tradetype_id"	  lazy="false" />  
+		<many-to-one  name="user"  column="user_id"  lazy="false" />
+	</class>
+
+</hibernate-mapping>

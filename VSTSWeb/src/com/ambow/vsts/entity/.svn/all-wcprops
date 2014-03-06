@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity
+END
+Trade.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Trade.java
+END
+TradeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/TradeType.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/User.hbm.xml
+END
+Stock.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Stock.java
+END
+Trade.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Trade.hbm.xml
+END
+Holding.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Holding.java
+END
+TradeType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/TradeType.hbm.xml
+END
+Stock.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Stock.hbm.xml
+END
+Holding.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/Holding.hbm.xml
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/java606/!svn/ver/340/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTSWeb/src/com/ambow/vsts/entity/User.java
+END

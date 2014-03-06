@@ -1,0 +1,45 @@
+1.编写一个程序，要求提供三个静态方法，方法名统一为max，要求如下：
+a)第一个方法提供两个整型参数，求最大整数
+b)第二个方法提供两个双精度数，求最大双精度数
+c)第三个方法提供三个双精度数，求最大双精度数
+d)在main方法中分别调用这三个方法，在控制台输出三个方法的返回值
+
+2、某公司的雇员分为以下若干类：
+Employee：这是所有员工总的父类，
+	属性：员工的姓名和生日月份。
+	方法：getSalary(int month) 根据参数月份来确定工资，如果该月员工过生日，则公司会额外奖励100元。
+SalariedEmployee：Employee的子类，拿固定工资的员工。属性：月薪
+HourlyEmployee：Employee的子类，按小时拿工资的员工，每月工作超出160小时的部分按照1.5倍工资发放
+属性：每小时的工资、每月工作的小时数
+SalesEmployee：Employee的子类，销售人员，工资由月销售额和提成率决定
+属性：月销售额、提成率
+BasePlusSalesEmployee：SalesEmployee的子类，有固定底薪的销售人员，
+工资由底薪加上销售提成部分     属性：底薪。
+实现以上类，并测试不同员工的工资
+
+
+3、求图形的面积，要求如下：
+	a)编写一个名叫Shape的抽象类表示形状
+	b)为Shape类提供一个求周长的抽象方法：名为calculatePerimeter，返回值为double类型 
+	c)编写一个名叫Rectangle的类表示矩形，继承自Shape类，提供长（length）和宽（width）两个属性并覆盖父类的calculatePerimeter方法，计算矩形的周长 
+	d)编写一个名叫Circle的类表示圆形，继承自Shape类，提供一个半径（radius）属性并覆盖父类的calculatePerimeter方法，计算圆形的周长
+	e)编写一个ShapeTest的测试类，在main方法中分别创建一个矩形和圆形对象，为每个对象的属性赋值，在控制台输出每个图形对象的周长！
+
+
+4、判断一个整型数是奇数还是偶数，要求如下：
+	a)	编写一个接口OddInterface，提供两个方法：isOddNumber方法返回一个boolean值，判断一个数是否是奇数，getOdd方法返回一个整型数，返回被判断的数值。
+	b)	编写一个类Odd 实现OddInterface，提供一个int类型的odd属性表示要被判断的数，提供一个有参的构造方法；实现OddInterface中定义的方法。
+	c)	编写一个OddPrint类，打印整型数是奇数还是偶数。提供一个静态的print方法，方法的形参是OddInterface型的参数
+	d)	编写OddTest测试类，在main方法中创建一个Odd对象，并调用OddPrint的静态print方法打印判断结果
+
+
+5、按下列要求编程
+	a、定义一个接口Assaultable(可攻击的)，该接口有一个抽象方法attack()。
+	b、定义一个接口Mobile（可移动的）,该接口有一个抽象方法move()。
+	c、定义一个抽象类Weapon,实现Assaultable接口和Mobile接口，但并没有给出具体的
+实现方法。
+	d、定义3个类：Tank,Flighter,WarShip都继承自Weapon,分别用不同的方式实现 Weapon 类中的抽象方法。
+	e、写一个类Army,代表一支军队，这个类有一个属性是Weapon数组w（用来存储该军队所拥有的所有武器）；该类还提供一个构造方法，在构造方法里通过传一个int类型的参数来限定该类所能拥有的最大武器数量,并用这一大小来初始化数组w。该类还提供一个方法addWeapon(Weapon wa),表示把参数wa所代表的武器加入到数组w中。在这个类中还定义两个方法attackAll()和moveAll()，让w数组中的所有武器攻击和移 动。
+	f、写一个主方法去测试以上程序。
+
+

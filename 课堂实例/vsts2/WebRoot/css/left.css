@@ -1,0 +1,29 @@
+BODY {
+	CURSOR: url('/images/blue.ani'); 
+	background-color: #729EC3;
+}
+
+TABLE {
+	FONT-SIZE: 12px; CURSOR: default; COLOR: #000000
+}
+TD {
+	TEXT-ALIGN: center
+}
+.clicked {
+	BORDER-RIGHT: #c0c0c0 1px inset; BORDER-TOP: #c0c0c0 1px inset; BORDER-LEFT: #c0c0c0 1px inset; BORDER-BOTTOM: #c0c0c0 1px inset
+}
+.mouseon {
+	BORDER-RIGHT: black 1px outset; BORDER-TOP: white 1px outset; BORDER-LEFT: white 1px outset; BORDER-BOTTOM: black 1px outset
+}
+.tab {
+	BORDER-LEFT-COLOR: #808080; BORDER-BOTTOM-COLOR: black; WIDTH: 100%; COLOR: black; BORDER-TOP-COLOR: #808080; BORDER-RIGHT-COLOR: black
+; font-family: "??"; font-size: 12px; COLOR: #ffffff ; background-color: #335776 }
+.button {
+	WIDTH: 16px; POSITION: absolute; HEIGHT: 16px
+}
+.buttonmouseon {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.buttonclicked {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}

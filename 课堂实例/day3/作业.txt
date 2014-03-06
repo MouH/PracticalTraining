@@ -1,0 +1,11 @@
+1、设计并实现VSTS的实体类。
+2、写方法分别求数组最大值，最小值，平均值，和值，定义一个int型的一维数组，包含10个元素，分别赋一些随机整数，测试所写的方法。
+3、自定义一个学生类（Student），学生有如下的属性：姓名，年龄，成绩，然后自定义一个泛型的的集合只能存放学生（Student）对象，加入一些学生对象，分别使用Collection、Set、List然后遍历学生对象。
+4、编写程序实现对Employee类的排序，要求如下：
+  a)给Employee类添加属性:name:String,age:int,salary:double 
+  b)把若干Employee对象放在List中,排序并遍历输出,排序规则:salary高的在前,salary相同时age大的在前面,age也相同时按照name升序排列
+Comparable
+  c)把若干Employee对象放在HashSet中并遍历输出,要求没有重复元素
+5、1）写一个帐户Account类，有属性姓名及余额。
+   2）自定义一个异常类，显示信息为“余额不够”
+   3）写一个ATM类，实现一个取钱方法，传入Account对象及所取金额，如果帐户余额不够，则抛出上面的自定义异常

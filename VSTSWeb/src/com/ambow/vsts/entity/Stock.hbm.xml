@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding='utf-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping>
+	<class name="com.ambow.vsts.entity.Stock" table="stock" lazy="true">
+		<id name="id" column="StockId" type="int">
+			<generator class="native" />
+		</id>
+		<property name="code" column="Code" type="string" />
+		<property name="name" column="Name" type="string" />
+		<property name="price" column="Price" type="double" />
+		
+		
+		<set name="holding" cascade="save-update" inverse="true" lazy="true">
+			<key column="StockID" />
+			<one-to-many class="com.ambow.vsts.entity.Holding" />
+		</set>
+		<set name="trade" cascade="save-update">
+			<key column="StockID" />
+			<one-to-many class="com.ambow.vsts.entity.Trade" />
+		</set>
+	</class>
+</hibernate-mapping>
+	

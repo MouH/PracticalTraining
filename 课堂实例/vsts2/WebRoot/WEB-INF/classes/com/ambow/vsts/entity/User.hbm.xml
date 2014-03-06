@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping  package="com.ambow.vsts.entity">
+	<!-- 建立User类与User表之间的映射， -->
+	<class name="User" table="user">
+		<!-- 定义oid -->
+		<id name="user_id"  column="user_id">
+			<!-- 定义oid的生成策略 -->
+			<generator class="native"></generator>
+		</id> 
+		<!-- 定义属性(持久化到数据库中) -->
+		<!-- type:是Hibernate类型 -->
+		<property name="name" column="name" type="string"></property>
+		<property name="passwd" column="passwd"></property>
+		<!-- 列名与属性名相同 -->
+		<property name="email" ></property>
+		<property name="address" ></property>
+		<property name="phone" ></property>
+		<property name="reg_date" ></property>
+		<!-- 
+		<set></set>
+		 -->
+	</class>
+</hibernate-mapping>

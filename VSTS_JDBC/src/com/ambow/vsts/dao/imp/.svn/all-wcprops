@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/dao/imp
+END
+UserDaoJdbc.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/dao/imp/UserDaoJdbc.java
+END
+TradeDaoJdbc.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/dao/imp/TradeDaoJdbc.java
+END
+HoldingJdbc.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/dao/imp/HoldingJdbc.java
+END
+StockDaoJdbc.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/java606/!svn/ver/331/%E4%BD%9C%E4%B8%9A/%E5%91%A8%E8%B6%85%E7%84%B6/%E7%AC%AC5%E5%B0%8F%E7%BB%84%E9%A1%B9%E7%9B%AE/VSTS/src/com/ambow/vsts/dao/imp/StockDaoJdbc.java
+END

@@ -1,0 +1,130 @@
+body.tab {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #E8EDF0;
+}
+
+TABLE.mnuBar {
+	BORDER-RIGHT: #00377a 1px solid; BORDER-TOP: #abc0e7 1px solid; BORDER-LEFT: #abc0e7 1px solid; WIDTH: 100%; COLOR: #ffffff; BORDER-BOTTOM: #00377a 1px solid; HEIGHT: 23px; BACKGROUND-COLOR: #7288ac
+}
+
+TD.icMenu {
+	BEHAVIOR: url(/_nav/menu.htc)
+}
+
+TD.mnuRight {
+	PADDING-RIGHT: 5px; WIDTH: 100%; TEXT-ALIGN: right
+}
+
+SPAN.menu {
+	BORDER-RIGHT: #7288ac 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #7288ac 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #7288ac 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #7288ac 1px solid; HEIGHT: 100%
+}
+
+IMG.mnuBtn {
+	MARGIN-BOTTOM: -1px; VERTICAL-ALIGN: top; WIDTH: 16px; MARGIN-RIGHT: 1px; HEIGHT: 16px
+}
+
+
+TABLE.gridSort {
+	BEHAVIOR: url(/_grid/behaviors/grid.htc); CURSOR: hand
+}
+
+TD.sort {
+	PADDING-LEFT: 8px;
+	font-family: "ËÎÌו";
+	font-size: 12px;
+	color: #A83300;
+}
+
+TABLE.gridData {
+	TABLE-LAYOUT: fixed; WIDTH: 100%; CURSOR: hand
+}
+
+tr.grid{
+	height:25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+
+TABLE.gridStatusBar {
+	BEHAVIOR: url(/_grid/behaviors/grid_statusBar.htc)
+}
+
+TABLE.gridBar {
+	BORDER-RIGHT: #dbdac9 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: #dbdac9 1px solid; BACKGROUND-IMAGE: url(/_grid/imgs/bar_bk.gif); BORDER-LEFT: #dbdac9 1px solid; WIDTH: 100%; BORDER-BOTTOM: #c5c1b1 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #e9e7d7
+}
+
+TD {
+	FONT-SIZE: 12px;
+	font-family: "??";
+}
+TABLE {
+	CURSOR: default
+}
+
+table.table_peag {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d1cdbb;
+}
+
+TD.icMenu {
+	BEHAVIOR: url(/_nav/menu.htc)
+}
+TD.gridSelectOn {
+	BORDER-TOP: #ffffff 1px solid; BORDER-BOTTOM: #333333 1px solid; BACKGROUND-COLOR: #cad3e4
+}
+TD.gridPreview {
+	 CURSOR: default; BORDER-BOTTOM: #dddddd 1px solid
+}
+
+TD.req {
+	FONT-WEIGHT: bold; BEHAVIOR: url(/_forms/styles/mouseover.htc); OVERFLOW: hidden; COLOR: #990000; TEXT-OVERFLOW: ellipsis
+}
+TEXTAREA {
+	BORDER-RIGHT: #7b9ebd 1px solid; BORDER-TOP: #7b9ebd 1px solid; FONT-SIZE: 8pt; BEHAVIOR: url(/_forms/styles/TEXTAREA.htc); BORDER-LEFT: #7b9ebd 1px solid; WIDTH: 100%; BORDER-BOTTOM: #7b9ebd 2px solid; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+INPUT.red {
+	BORDER-RIGHT: #7b9ebd 1px solid; BORDER-TOP: #7b9ebd 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #7b9ebd 1px solid; WIDTH: 80%; BORDER-BOTTOM: #7b9ebd 1px solid; FONT-FAMILY: ?? ; HEIGHT: 19px
+}
+TEXTAREA {
+	HEIGHT: 100%
+}
+button {
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 10px;
+	BORDER-TOP: #7b9ebd 1px solid;
+	PADDING-LEFT: 10px;
+	FONT-SIZE: 12px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 					BORDER-LEFT: #7b9ebd 1px solid;
+	CURSOR: hand;
+	BORDER-BOTTOM: #7b9ebd 1px solid;
+	font-family: "??";
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 2px;
+}
+div.header {
+	font-family: "??";
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+div.headerdesc{
+	font-family: "??";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+A:link      {
+                color: #FF6600; font-size: 12px; font-family:"??"; text-decoration: none
+                }
+A:visited   {
+                color: #FF6600; font-size: 12px; font-family: "??"; text-decoration: none
+				}
+A:hover     {
+                color: #0090FF; font-size: 12px; font-family: "??";  text-decoration: underline
+                }

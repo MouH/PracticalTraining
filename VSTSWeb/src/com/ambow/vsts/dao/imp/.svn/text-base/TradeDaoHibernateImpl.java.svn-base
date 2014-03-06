@@ -1,0 +1,54 @@
+package com.ambow.vsts.dao.imp;
+
+import java.util.Date;
+import java.util.Collection;
+
+import org.hibernate.Session;
+
+import com.ambow.vsts.dao.TradeDao;
+import com.ambow.vsts.entity.Stock;
+import com.ambow.vsts.entity.Trade;
+import com.ambow.vsts.entity.TradeType;
+import com.ambow.vsts.entity.User;
+import com.ambow.vsts.util.HibernateUtil;
+
+public class TradeDaoHibernateImpl extends GenericDaoHibernateImpl implements TradeDao {
+
+	public void addTrade(Trade trade) throws Exception {
+		// TODO Auto-generated method stub
+		new GenericDaoHibernateImpl().save(trade);
+		System.out.println("addTrade-------------------");
+	}
+
+
+	public Collection<Trade> findAll(Integer userid) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public static void main(String[] args) throws Exception {
+		//User i = new User("tom","34777","asdf@sdfx","9090473",new Date());
+//		System.out.println("ok");
+	//	TradeType t = new TradeType(1,"asdf");
+//		System.out.println("ok1");
+	//	Stock s = new Stock("123",2,"gaoxiao",55);
+//		System.out.println("ok2");
+		//Trade tr = new Trade(s,new Date(),1,16.8,t,i);
+		User u = new User();
+		u.setId(2);
+		Stock s = new Stock();
+		s.setId(1);
+		TradeType t = new TradeType();
+		t.setId(4);
+		Trade tr = new Trade();
+		tr.setTradeNumber(17);
+		tr.setTradePrice(0.09);
+		tr.setId(14);
+		tr.setUser(u);
+		tr.setStock(s);
+		tr.setTradetype(t);
+		System.out.println(tr);
+		new TradeDaoHibernateImpl().addTrade(tr);
+		
+		System.out.println("ok4");
+	}
+}
